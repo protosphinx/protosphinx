@@ -18,10 +18,10 @@ Four research crates - `shunya`, `kala`, `samsara`, `maya` - are that exercise. 
 
 | | | |
 |---|---|---|
-| **[shunya](https://github.com/protosphinx/shunya)** *(शून्य)* | *zero, zero-knowledge* | Goldilocks · NTT · multilinear · sumcheck · → KZG |
-| **[kala](https://github.com/protosphinx/kala)** *(काल)* | *time, in a Rust crate* | Lamport · HLC · vector · ITC · → cost-balanced grow |
-| **[samsara](https://github.com/protosphinx/samsara)** *(संसार)* | *endless rebirth* | arena · tri-color · mark-region · SATB · → concurrent marking |
-| **[maya](https://github.com/protosphinx/maya)** *(माया)* | *the rendered world* | Wengert · Tensor · matmul · particle dynamics · → RK4 |
+| **[shunya](https://github.com/protosphinx/shunya)** *(शून्य)* | *zero, zero-knowledge* | Goldilocks · NTT · sumcheck · Merkle · → FRI |
+| **[kala](https://github.com/protosphinx/kala)** *(काल)* | *time, in a Rust crate* | Lamport · HLC · vector · ITC · cost-balanced grow · → Loom |
+| **[samsara](https://github.com/protosphinx/samsara)** *(संसार)* | *endless rebirth* | tri-color · mark-region · SATB · atomic phase · remembered set · → concurrent marking |
+| **[maya](https://github.com/protosphinx/maya)** *(माया)* | *the rendered world* | Wengert · Tensor · matmul · Euler · RK4 · → state-dependent forces |
 
 ## Made before
 
