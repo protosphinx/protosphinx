@@ -18,10 +18,10 @@ Four research crates - `shunya`, `kala`, `samsara`, `maya` - are that exercise. 
 
 | | | |
 |---|---|---|
-| **[shunya](https://github.com/protosphinx/shunya)** *(शून्य)* | *zero, zero-knowledge* | Goldilocks · NTT · sumcheck · Merkle · FRI · adversarial soundness · → real hash |
-| **[kala](https://github.com/protosphinx/kala)** *(काल)* | *time, in a Rust crate* | Lamport · HLC · vector · ITC · LWW CRDT · wire format · → Loom |
-| **[samsara](https://github.com/protosphinx/samsara)** *(संसार)* | *endless rebirth* | tri-color · mark-region · SATB · concurrent marker · Treiber · hazard registry · → safe stack |
-| **[maya](https://github.com/protosphinx/maya)** *(माया)* | *the rendered world* | Wengert · Tensor · matmul · RK4 · state-dependent forces · broadcasting · 2D rigid bodies · → contact |
+| **[shunya](https://github.com/protosphinx/shunya)** *(शून्य)* | *zero, zero-knowledge* | Goldilocks · NTT · sumcheck · Merkle · FRI · adversarial soundness · SHA-256 · → 32-byte hash |
+| **[kala](https://github.com/protosphinx/kala)** *(काल)* | *time, in a Rust crate* | Lamport · HLC · vector · ITC · LWW · wire · causal broadcast · → Loom |
+| **[samsara](https://github.com/protosphinx/samsara)** *(संसार)* | *endless rebirth* | tri-color · mark-region · SATB · concurrent marker · Treiber · hazards · ABA-safe stack · → Loom |
+| **[maya](https://github.com/protosphinx/maya)** *(माया)* | *the rendered world* | Wengert · Tensor · matmul · RK4 · state-dependent forces · broadcasting · rigid bodies · ReLU + contact · → 2D contact |
 
 ## Made before
 
