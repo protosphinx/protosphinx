@@ -18,10 +18,10 @@ Four research crates - `shunya`, `kala`, `samsara`, `maya` - are that exercise. 
 
 | | | |
 |---|---|---|
-| **[shunya](https://github.com/protosphinx/shunya)** *(शून्य)* | *zero → zero-knowledge* | Goldilocks field · NTT · → PLONK |
-| **[kala](https://github.com/protosphinx/kala)** *(काल)* | *time, in a Rust crate* | Lamport · HLC · vector clock · → ITC |
-| **[samsara](https://github.com/protosphinx/samsara)** *(संसार)* | *endless rebirth* | bump arena · tri-color · mark-region · → SATB |
-| **[maya](https://github.com/protosphinx/maya)** *(माया)* | *the rendered world* | Wengert tape · Tensor · → diff-physics |
+| **[shunya](https://github.com/protosphinx/shunya)** *(शून्य)* | *zero, zero-knowledge* | Goldilocks · NTT · multilinear · sumcheck · → KZG |
+| **[kala](https://github.com/protosphinx/kala)** *(काल)* | *time, in a Rust crate* | Lamport · HLC · vector · ITC · → cost-balanced grow |
+| **[samsara](https://github.com/protosphinx/samsara)** *(संसार)* | *endless rebirth* | arena · tri-color · mark-region · SATB · → concurrent marking |
+| **[maya](https://github.com/protosphinx/maya)** *(माया)* | *the rendered world* | Wengert · Tensor · matmul · particle dynamics · → RK4 |
 
 ## Made before
 
