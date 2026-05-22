@@ -2,7 +2,7 @@
 
 # protosphinx
 
-[**@protosphinx**](https://x.com/protosphinx) · San Francisco
+[**@protosphinx**](https://x.com/protosphinx) · Singapore · San Francisco · Kanpur
 
 *Sanskrit roots. V8 fists. Ship the whole dataset.*
 
