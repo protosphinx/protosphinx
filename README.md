@@ -12,12 +12,13 @@
 
 Every layer of the stack is more legible when you build it once from scratch. The ZK prover. The garbage collector. The distributed clock. The differentiable simulator. The local AI runtime. Each one was abstracted into a black box years ago and is more interesting reopened than left shut.
 
-Right now the public work splits into three lanes: on-device AI for browser apps, research crates that rebuild hard systems primitives from first principles, and civic / industrial infrastructure writing for India.
+Right now the public work splits into four lanes: skills that make AI agents useful to people starting from zero, on-device AI for browser apps, research crates that rebuild hard systems primitives from first principles, and civic / industrial infrastructure writing for India.
 
 ## Building now
 
 | | |
 |---|---|
+| **[sphinxstack](https://github.com/protosphinx/sphinxstack)** | A stack of skills for your AI agent, made for people starting from zero. 103 skills and 149 project briefs as plain files — load one into Codex, Claude Code, Copilot, Gemini, or Cursor and do the thing: build your resume, put a website live, ship a working app. Everything is a skill, including the resume. Live at [sphinxstack.com](https://sphinxstack.com); [spawn](https://github.com/protosphinx/spawn) is the template repo that coaches you through a project. |
 | **[dhamaka](https://github.com/protosphinx/dhamaka)** | Local AI capability layer for web apps. Reflex and Transform ship today: smart fields, smart forms, contextual spellcheck, smart paste, formula rewrite / explain / debug, task registry, `window.ai` / Transformers.js / WASM / mock engines, cross-site model cache, demos, CI. The thesis is simple: stop sending data to the model; ship the model to the data. |
 | **[erp.ai](https://erp.ai)** | Substrate for agent-driven SaaS. ERP is the example, not the target. Dhamaka's formula work is the local-AI path for the spreadsheet-shaped parts of it. |
 
